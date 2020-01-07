@@ -1,0 +1,195 @@
+/* Sets the content to fil the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+p, form, button, .text-block1 {
+    color: #777777;
+    font-family: 'Arial','Helvetica Neue', sans-serif;
+}
+
+form {
+    font-family: 'Arial','Helvetica Neue', sans-serif;
+}
+/* Generic CSS Code for all content boxes */
+
+.contentbox {
+    background: #ffffff;
+    width: 960px;
+    margin-top:30px;
+    margin: 0 auto;
+    
+
+}
+
+
+
+/* Code for all portfolio site images */
+
+.portfolioimg {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+/* Container Holding The Portfolio Images and Text */
+
+a:hover {
+    background-color: #4aaaa5;
+}
+.portfolioblock {
+    position: relative;
+    display: block;
+    height: 150px;
+    width:150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* Text Block in Picture on Portfolio */
+
+.text-block1 {
+    position: absolute;
+    bottom: 5px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    width:150px;
+    height: 25px;
+    font-size: 8pt;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+
+.profiletext{
+    display:block;
+    position: relative;
+    overflow-wrap: break-word;
+}
+/* Pic on Index */
+
+.profilepic{
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia' , 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-left: 10px;
+    font-family: 'Georgia';
+    
+    
+  }
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -58px;
+
+}
+
+.messagebox {
+    width: 400px;
+    height: 100px;
+    
+}
+input {
+    width: 400px;
+}
+
+form {
+    padding-left: 15px;
+}
+
+.button {
+    padding-top: 15px;
+    width: 100px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer {
+   background: #666666; 
+   border-top: 8px solid #4aaaa5;
+   color: #ffffff;
+   text-align: center;
+}
+.footer,
+.push {
+    height:50px;
+}
+
+.topnav {
+    background-color:#ffffff;
+    height: 50px;
+    width: 960px;
+    margin:auto;
+    border-bottom: #cccccc;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#myname {
+    display: block;
+    background:#4aaaa5;
+    float: left;
+    height: 50px;
+    position: sticky;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6pt;
+    color: #ffffff;
+   
+}
+
+#myname h1 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+}
+
+/* Formatting for the Navigation Links on right side */
+.navlinks a {
+    float: right;
+    color:#777777;
+   text-decoration: none;
+   font-family: 'Georgia', 'Times New Roman',  Times, serif;
+
+  
+ 
+}
+
+
+
+.portfolio, .aboutme {
+    padding-right: 15px;
+}
+
+
+  
+
+  /* CSS formatting for columns in Portfolio */
+
+ .flexbox {
+     display: flex;
+     flex-direction: row;
+ }
+  
+
+  .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+
